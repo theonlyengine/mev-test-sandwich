@@ -1,4 +1,11 @@
-## How to perform V2/V3 sandwich attacks.
+## Join the wall of fame.
+<a href="https://github.com/0xYerbaMate/subway-sandwich/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=0xYerbaMate/subway-sandwich" />
+</a>
+<img src="https://myreadme.vercel.app/api/embed/0xYerbaMate?panels=userstatistics,toprepositories,toplanguages,commitgraph"/>
+
+
+# This repo is an example of How to perform V2/V3 sandwich attacks.
 ## [`Artemis`](https://github.com/paradigmxyz/artemis) framework - Is required for this build.
 
 ## Brief Explanation
