@@ -1,0 +1,17 @@
+Step 0: Borrow XXX WETH from Balancer Vault using Flash Loan.
+
+Step 1, Step 11, Step 12: Perform self-transfer of WETH to the specified address.
+
+Step 2-3: Sell XXX WETH on UniswapV3Pool to obtain XXX CRV at an average exchange rate of XXX CRV/WETH.
+
+Step 4-5: Directly transfer and trigger claim_admin_fees operation by sending in XX,XXX CRV to Vyper_contract.
+This operation will update parameters such as pool balance and total supply.
+
+Step 6-9: Call the exchange method of Vyper_contract to convert and exchange a total of XXX CRV
+for approximately ETH equivalent to be converted back into WETH at an average exchange rate of approximately XXX CRV/WETH.
+
+Step 10: Internal process within the exchange method triggers another claim_admin_fees operation.
+
+Step 13: Return the borrowed amount of XXX WETH through Flash Loan.
+
+Step 14-16: Convert the remaining XXX WETH into ETH and send it back to the 'from' address.
