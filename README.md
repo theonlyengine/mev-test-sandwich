@@ -1,10 +1,11 @@
-## A practical example on how to perform V2/V3 sandwich attacks written using Rust and Huff.
-## [`Artemis`](https://github.com/paradigmxyz/artemis) framework.
+## How to perform V2/V3 sandwich attacks.
+## [`Artemis`](https://github.com/paradigmxyz/artemis) framework - Is required for this build.
 
 ## Brief Explanation
-Anytime that a transaction interacts with a Uniswap V2/V3 pool and its forks, there is some slippage introduced (routers, aggregators, other MEV bots). Sandwich bots, like this one, are a toxic form of MEV as they profit off this slippage by frontrunning the transaction pushing the price of an asset up to the slippage limit, and then immediately selling the asset through a backrun transaction.
+Anytime that a transaction interacts with a Uniswap V2/V3 pool and its forks, there is some slippage introduced (routers, aggregators, other MEV bots).
+Sandwich bots, like this one, are a toxic form of MEV as they profit off this slippage by frontrunning the transaction pushing the price of an asset up to the slippage limit, and then immediately selling the asset through a backrun transaction.
 
-**Bot Logic Breakdown** can be found under [bot/README.md]
+**Bot Logic Breakdown** can be found under [bot/README.md]<br>
 **Contract Logic Breakdown** can be found under [contract/README.md]
 
 ## Features
@@ -18,3 +19,5 @@ Anytime that a transaction interacts with a Uniswap V2/V3 pool and its forks, th
 
 ## Notice
 I'm just trying to get rich.
+Help me out.
+ETH Donations go towards time developing: 0x26f7DBA313488CB3491f46e60bec740CC0339B41
