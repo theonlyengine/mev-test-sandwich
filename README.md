@@ -1,5 +1,5 @@
 ## How to perform V2/V3 sandwich attacks.
-## [`Artemis`](https://github.com/paradigmxyz/artemis) framework.
+## [`Artemis`](https://github.com/paradigmxyz/artemis) framework - Is required for this build.
 
 ## Brief Explanation
 Anytime that a transaction interacts with a Uniswap V2/V3 pool and its forks, there is some slippage introduced (routers, aggregators, other MEV bots).
